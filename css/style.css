@@ -1,0 +1,154 @@
+.navbar-default {
+  background-color: #4e0072;
+  border-color: #e6e6e6;
+}
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #c29e06;
+}
+
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #c29e06;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #c29e06;
+  background-color: #e6e6e6;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #c29e06;
+  background-color: #e6e6e6;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #e6e6e6;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #e6e6e6;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #a6b300;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-link:hover {
+  color: #c29e06;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #c29e06;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #c29e06;
+    background-color: #e6e6e6;
+  }
+}
+
+.navbar-header,
+#pages {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*End navbar*/
+
+#about,
+#portfolio,
+#contact,
+.emphasize-dark {
+  padding-top: 50px;
+  padding-left: 50px;
+  height: 670px;
+  color: #fff;
+  position: relative;
+  box-shadow: 0 0 25px 5px rgba(0, 0, 0, .35);
+}
+
+#about {
+  background-color: #888;
+}
+
+#portfolio {
+  background-color: #586f0e;
+}
+
+#contact {
+  background-color: #0b5182;
+}
+
+.portrait {
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  font-size: 30px;
+  text-align: center;
+}
+
+.pageContent {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+}
+
+img {
+  width: 304px;
+  height: 236px;
+}
+
+/*Form*/
+.red {
+  color: red;
+}
+
+.form-area {
+  background-color: #FAFAFA;
+  padding: 10px 40px 60px;
+  border: 1px solid GREY;
+}
